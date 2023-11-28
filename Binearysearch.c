@@ -20,7 +20,6 @@ node *new_node,*root,*temp,*parent;
 node *get_node();
 root=NULL;
 
-16 | P a g e
 
 printf("\nprogram for Binary Search Tree");
 do{
@@ -47,7 +46,6 @@ ans=getch();
 break;
 case 2:
 
-17 | P a g e
 
 printf("\nenter element to be searched:");
 scanf("%d",&key);
@@ -75,7 +73,6 @@ node *temp;
 temp=(node*)
 malloc(sizeof(node));
 
-18 | P a g e
 
 temp->lchild=NULL;
 temp->rchild=NULL;
@@ -103,7 +100,6 @@ while(temp!=NULL)
 {
 if(temp->data==key)
 
-19 | P a g e
 
 {
 printf("\nthe %d element is present",temp->data);
@@ -131,7 +127,6 @@ void preorder(node *temp)
 if(temp!=NULL)
 {
 
-20 | P a g e
 
 printf("%d",temp->data);
 preorder(temp->lchild);
